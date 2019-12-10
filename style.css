@@ -1,105 +1,45 @@
 .container{
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: space-between;
-    height: 200px;         
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(16, 20px);
+    grid-gap:2px;
+    grid-template-rows: repeat(16,20px);
 }
 
-.zone{
-    cursor: pointer;
-    text-align: center;
-    font-size: 2em;
-    border-radius: 4px;
-    border: 1px solid #bbb;
-    transition: all 0.3s linear;
+.orange{
+    background: #ff7100;
 }
 
-
-.green{
-    background: linear-gradient(#56B870 0%, #a5c956 100%);
-    
-   
-}
-.red{
-    background: linear-gradient(#be48b2 0%, #c80710 100%);
-    align-self: center;
-    padding: 20px 130px;
-   
-}
-.blue{
-    background: linear-gradient(#76b0f8 0%, #3a8deb 100%);
+.beige{
+    background: #ffb26d;
 }
 
-
-
-/* CONTAINER 2*/
-
-.container2{
-    display: flex;
-    flex-flow: column wrap;
-    height: 150px; 
+.brown{
+    background: #a84a00;
 }
 
-.green2{
-    background: linear-gradient(#56B870 0%, #a5c956 100%);
-    
-   
-}
-.red2{
-    background: linear-gradient(#be48b2 0%, #c80710 100%);
-    align-self: flex-end;
-/*    padding: 20px 20px;*/
-   
-}
-.blue2{
-    background: linear-gradient(#76b0f8 0%, #3a8deb 100%);
+.grey{
+    background: #cccccc;
 }
 
-
-/* CONTAINER 3*/
-
-.container3{
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: space-between;
-    height: 200px;         
+.grey2{
+    background: #999;
 }
 
-.green3{
-    background: linear-gradient(#56B870 0%, #a5c956 100%);
-    
-   
-}
-.red3{
-    background: linear-gradient(#be48b2 0%, #c80710 100%);
-
-   
-}
-.blue3{
-    background: linear-gradient(#76b0f8 0%, #3a8deb 100%);
+.grey3{
+    background: #666;
 }
 
-
-
-/* CONTAINER 4*/
-
-.container4{
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: space-between;
-    height: 200px;         
+.grey4{
+    background: #333;
 }
 
-.green4{
-    background: linear-gradient(#56B870 0%, #a5c956 100%);
-    
-   
-}
-.red4{
-    background: linear-gradient(#be48b2 0%, #c80710 100%);
-
-   
-}
-.blue4{
-    background: linear-gradient(#76b0f8 0%, #3a8deb 100%);
+.tablecloth{
+    margin: auto;
+    width: 345px;
+    height: 195px;
+    border: 1px solid #8a8a8a;
+    background-image: linear-gradient(transparent 50%, rgba(216,62,59,0.5) 0), 
+    linear-gradient(to right, transparent 50%, rgba(216,62,59,0.5) 0);
+    background-size: 43px 43px;
 }
